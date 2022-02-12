@@ -31,11 +31,11 @@ const Welcome = () => {
   } = useContext(TransactionContext);
 
   const handleSubmit = (e) => {
-    const { addressTo, amount, keyword, message } = formData;
+    const { addressTo, amount, message } = formData;
 
     e.preventDefault();
 
-    if (!addressTo || !amount || !keyword || !message) return;
+    if (!addressTo || !amount || !message) return;
 
     sendTransaction();
   };
@@ -48,7 +48,7 @@ const Welcome = () => {
             Start exploring <br /> blockchain
           </h1>
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-            Explore the crypto world. Buy and sell cryptocurrencies easily.
+            Explore the crypto world. Spend your cryptocurrencies easily.
           </p>
           {!currentAccount && (
             <button
@@ -110,12 +110,6 @@ const Welcome = () => {
               placeholder="Amount (ETH)"
               name="amount"
               type="number"
-              handleChange={handleChange}
-            />
-            <Input
-              placeholder="Keyword (Gif)"
-              name="keyword"
-              type="text"
               handleChange={handleChange}
             />
             <Input
