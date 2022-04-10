@@ -46,7 +46,7 @@ const Services = () => (
           subtitle="Lorem ipsum odor amet, consectetuer adipiscing elit. Donec lectus vehicula suspendisse."
         />
         <ServiceCard
-          color="bg-[#656565]"
+          color="bg-[#b81818]"
           title="Fastest transactions"
           icon={<FcFlashOn fontSize={21} className="text-white" />}
           subtitle="Lorem ipsum odor amet, consectetuer adipiscing elit. Donec lectus vehicula suspendisse."
