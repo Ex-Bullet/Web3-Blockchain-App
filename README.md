@@ -1,5 +1,3 @@
-# Web 3.0 Blockchain Application
+# Modern Web 3 Blockchain Application
 
-## Introduction
-Project created to test ecosystem
-Web3 wallet connection crypto website
+Write smart contracts on Ethereum network that allows users to send transactions through the blokchain.
